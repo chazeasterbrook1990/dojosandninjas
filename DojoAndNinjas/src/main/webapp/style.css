@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+	font-family: sans-serif; 
+	margin: 0 auto;	
+
+}
+
+body {
+	padding: 20px;
+	background-color: rgb(210, 255, 237);
+}
+
+.formGroup {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+label, a {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+    width: 30%;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+th {
+	background-color:rgb(105, 255, 195);
+}
+
+td, th{
+	padding: 5px;
+	border: 2px solid black;
+}
+
